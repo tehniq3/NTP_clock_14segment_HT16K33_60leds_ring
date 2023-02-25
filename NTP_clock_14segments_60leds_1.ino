@@ -265,6 +265,9 @@ for (int i=0; i<12; i++)  // show important points
       }
     FastLED.show();
 // ---------end of display ring clock part ------------------------------------
+  
+ iaData();
+Soare();
 } // end main loop
 
 byte getLEDHour(byte orele, byte minutele) {
